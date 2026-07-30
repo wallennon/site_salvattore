@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Environment variables / secrets — nunca versionar
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.cer
+credentials.json
+secrets.json
+
+# Netlify CLI local state
+.netlify/
+
+# Node (caso alguma ferramenta seja adicionada futuramente)
+node_modules/
+
+# Windows
+Thumbs.db
